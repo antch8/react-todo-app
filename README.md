@@ -1,6 +1,6 @@
 ## ✅ todo-app
 
-[DEMO LINK]() . 👈
+[DEMO LINK](https://antch8.github.io/react-todo-app/) . 👈
 
 > With this simple application you can keep track of your to-do list – create new tasks, update the status and delete completed ones
 
