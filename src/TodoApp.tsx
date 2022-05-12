@@ -26,7 +26,9 @@ enum Filters {
 
 export const TodoApp: React.FC = () => {
   const getTodos = useCallback((): Todo[] => {
-    return JSON.parse(localStorage.getItem('todos') || '') || [];
+    return localStorage.getItem('todos')
+      ? JSON.parse(localStorage.getItem('todos') || '')
+      : []
   }, []);
 
   const [todos, setTodos] = useState<Todo[]>(getTodos());
